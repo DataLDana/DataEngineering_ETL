@@ -232,7 +232,7 @@ def weather_to_df():
                 # state the city
                'city_id':city_id, 
                 # create query_time
-                'query_time': item['dt'], 
+                'query_time': pd.Timestamp(datetime.today()).strftime('%Y-%m-%d %H:%M:%S'),
                 # create forecast time        
                'forcast_times':item['dt_txt'],
                 # create temperature    
@@ -293,7 +293,7 @@ def flights_to_df():
     airports_df = pd.read_sql('airports', con = connection_string_GCP)
     
     # set times, get flight infos between now + 24 h and for a duration of 12h
-    now =  pd.Timestamp(datetime.today())  # the time of no
+    now =  pd.Timestamp(datetime.today())  # the time of now
     # times in right format
     froms = (now + pd.Timedelta('24h')).strftime('%Y-%m-%dT%H:%M')  # now + 24 h
     # froms = pd.Timestamp(now.year, now.month, now.day +1)  # alternative: next day 00:00 h
