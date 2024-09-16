@@ -3,7 +3,7 @@ connection_password_GCP = 'Connection Password MySQL Google Cloud Instance '
 
 Flights_API_Key = 'API Key' # https://aerodatabox.p.rapidapi.com/flights
 Weather_API_Key = 'API Key' # https://api.openweathermap.org
-Ninja_Key = 'erL338qTF08k2IUS5JpnMA==WAaM1WJ1jbXHArfJ'   # https://api.api-ninjas.com/v1/
+Ninja_Key = 'API Key'   # https://api.api-ninjas.com/v1/
 
 # connection string GCP
 schema_GCP = "gans_sql_GCP"
