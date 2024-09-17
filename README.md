@@ -26,10 +26,10 @@ Files:
 
 **keys.py**
 - insert your API keys
-- add information of SQL Instance (Google Cloud Platform)
+- change information about your SQL Instance (on Google Cloud Platforms)
 
 **Gans_SQL_GCP.md**
-- SQL Code to set up the relational database structure
+- SQL Code to set up the general relational database structure
 
 **GansETL_python_GCP.ipynb**
 - main function, run to create static tables (cities, airports)
