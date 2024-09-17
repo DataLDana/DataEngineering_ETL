@@ -1,4 +1,4 @@
-# Building up a ETL pipeline for a fictional company
+# Data Engineering Project: Building up an ETL pipeline from scratch
 The project for Gans, a hypothetical e-scooter-sharing company, involved building a data pipeline to predict scooter movement using real-time data like weather, flight schedules, and population trends. Within this use case of my Datascience Bootcamp at WBS Coding school, I created a relational database in MySQL, populated it with dynamic and static data from external APIs, and automated the process using Google Cloud Functions and Cloud Scheduler. Key tasks included schema design, managing relationships between static (cities, airports) and dynamic tables (weather, flights, populations), looping through JSON responses and storing data in pandas dataframes.
 For further insights about the project see this medium article.
 https://medium.com/@data-dana-l/data-engineering-through-the-eyes-of-a-child-d25b3a29ff9b
