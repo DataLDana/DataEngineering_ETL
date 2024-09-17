@@ -6,6 +6,7 @@ https://medium.com/@data-dana-l/data-engineering-through-the-eyes-of-a-child-d25
 ## Languages and Libraries Used
 * Python: pandas, datetime, requests, sqlalchemy, pymysql
 * MySQL
+* Google Cloud Functions, Google Cloud Scheduler
   
 ## Key Learnings
 * Data collection with APIs
